@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -------------------------------------- -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <title>Simple To-do list</title>
+  <script defer src="bundle.js"></script></head>
+  <body>
+
+    <div class="prompt-bg project-prompt">
+      <div class="white-bg">
+        <div class="form-wrap">
+        <form id="project-form" action="#">
+          <div>
+            <label for="project-name">Project name <span id="add-project-message"></span></label>
+            <input id="project-name" type="text" placeholder="" autocomplete="off"/>
+          </div>
+        </div>
+
+          <div class="button-container">
+            <button id="add" type="submit" class="btn">Add</button>
+            <button id="cancel" type="button" class="btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="prompt-bg add-task-prompt">
+    </div>
+
+    <div class="prompt-bg edit-task-prompt">
+    </div>
+
+    <div class="navbar">
+      <i class="fa-solid fa-check-double"></i> <span> Simple To-do list </span>
+    </div>
+
+    <section class="content">
+      <section class="menu-tab">
+        <div class="top-list">
+          <button id="home" class="btn list-btn home-btn">
+            <i class="fa fa-home-lg"></i>Home
+          </button>
+          <button id="today" class="btn list-btn today-btn">
+            <i class="fa fa-calendar"></i>Today
+          </button>
+          <button id="this-week" class="btn list-btn week-btn">
+            <i class="fa fa-calendar-alt"></i>This week
+          </button>
+        </div>
+
+        <div class="bottom-list">
+          <h3 class="project">Projects</h3>
+          <div class="project-list">
+          </div>
+          <button id="add-project" class="btn ">
+            <i class="fal fa-plus"></i>Add Project
+          </button>
+        </div>
+      </section>
+
+
+      <div class="container table-container">
+      </div>
+    </section>
+  </body>
+
+  <!-- JQuery -------------------------------------- -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+</html>
+
