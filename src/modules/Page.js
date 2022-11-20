@@ -121,6 +121,11 @@ function getToday() {
   return today;
 }
 
+function getFutureDay(days) {
+  const targetDay = format(addDays(new Date(), days), 'yyyy-MM-dd');
+  return targetDay;
+}
+
 // ------------------------------------------------
 // Load page functions
 // ------------------------------------------------
@@ -221,6 +226,69 @@ function sortByDueDate(e) {
   }
 }
 
+function loadExampleProjects() {
+  const DefaultProjects = [
+    {
+      name: 'Example One',
+      tasks: [
+        { name: 'Task 1', due: getFutureDay(1), priority: 'Low', status: '' },
+        { name: 'Task 2', due: getFutureDay(3), priority: 'Low', status: '' },
+        { name: 'Task 3', due: getFutureDay(5), priority: 'Low', status: '' },
+      ],
+    },
+    {
+      name: 'Example Two',
+      tasks: [
+        {
+          name: 'Assignment 1',
+          due: getFutureDay(1),
+          priority: 'Medium',
+          status: '',
+        },
+        {
+          name: 'Assignment 2',
+          due: getFutureDay(5),
+          priority: 'Medium',
+          status: '',
+        },
+        {
+          name: 'Assignment 3',
+          due: getFutureDay(7),
+          priority: 'Medium',
+          status: '',
+        },
+      ],
+    },
+    {
+      name: 'Example Three',
+      tasks: [
+        {
+          name: 'Homework 1',
+          due: getFutureDay(5),
+          priority: 'High',
+          status: '',
+        },
+        {
+          name: 'Homework 2',
+          due: getFutureDay(10),
+          priority: 'High',
+          status: '',
+        },
+        {
+          name: 'Homework 3',
+          due: getFutureDay(15),
+          priority: 'High',
+          status: '',
+        },
+      ],
+    },
+  ];
+
+  if (localStorage.getItem('projects') === null) {
+    DefaultProjects.forEach((project) => Storage.addProjects(project));
+  }
+}
+
 export {
   loadHome,
   loadToday,
@@ -229,4 +297,5 @@ export {
   renderTable,
   sortByTaskName,
   sortByDueDate,
+  loadExampleProjects,
 };

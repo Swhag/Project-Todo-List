@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   Project.submitAddProject();
   Project.cancelAddProject();
   Project.exitPrompt();
+  Page.loadExampleProjects();
   Page.loadHome();
   Page.loadToday();
   Page.loadThisWeek();

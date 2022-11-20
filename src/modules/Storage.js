@@ -1,8 +1,10 @@
 export default class Storage {
   static getProjects() {
-    let projects = [];
+    let projects;
 
-    if (localStorage.getItem('projects')) {
+    if (localStorage.getItem('projects') === null) {
+      projects = [];
+    } else {
       projects = JSON.parse(localStorage.getItem('projects'));
     }
 
