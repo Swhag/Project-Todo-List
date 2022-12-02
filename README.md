@@ -2,9 +2,9 @@
 
 Keep track of tasks with custom project folders
 
-- View to-do details, make an edit, delete and check off items.
-- Three priority levels to assign a to-do item.
-- Data saved to local storage.
+- View to-do details, edit, delete and check off list items.
+- Utilize local storage to store data.
+- Adjust priority levels to to-do items.
 - Sort by date / priority.
 
 Click Here: [Live App](https://swhag.github.io/Todo-List-App/)
