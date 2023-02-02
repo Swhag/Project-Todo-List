@@ -1,4 +1,4 @@
-# Simple To-do List
+# Simple To-do List (Small Project)
 
 Keep track of tasks with custom project folders
 
