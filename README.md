@@ -9,4 +9,4 @@ Keep track of tasks with custom project folders
 
 Click Here: [Live App](https://swhag.github.io/Todo-List-App/) :point_left:
 
-![Todo](https://user-images.githubusercontent.com/109196962/217162446-1ce46e56-55b5-43fe-b531-1d5bb2acc071.png)
+![Todo](https://user-images.githubusercontent.com/109196962/217162650-fd32d381-4f39-40eb-b7a2-c682040af227.png)
