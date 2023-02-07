@@ -130,6 +130,15 @@ function getFutureDay(days) {
 // Load page functions
 // ------------------------------------------------
 
+function loadPage() {
+  currentPage = 'home';
+  sorted = 'none';
+
+  UI.loadTable('To-do Overview');
+  UI.loadTableRows(getAllTasks());
+  UI.disableCheckedTask();
+}
+
 function loadHome() {
   document.querySelector('.home-btn').addEventListener('click', (e) => {
     currentPage = 'home';
@@ -290,6 +299,7 @@ function loadExampleProjects() {
 }
 
 export {
+  loadPage,
   loadHome,
   loadToday,
   loadThisWeek,

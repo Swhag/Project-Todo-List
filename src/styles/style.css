@@ -34,11 +34,10 @@ a:visited {
 
 .container {
   position: relative;
-  width: 100%;
-  max-width: 70% !important;
+  width: 70%;
+  min-width: 1000px !important;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
 }
 
 /* Navbar */
@@ -74,7 +73,7 @@ a:visited {
   color: #fff;
 
   height: 100%;
-  width: 260px;
+  min-width: 260px;
   padding-top: 40px;
 }
 
