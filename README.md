@@ -2,8 +2,12 @@
 
 ## Project Overview
 
-Task management app with ServiceNow type design and layout.
-Keeps track of tasks with custom project folders. 
+### Description
+
+Task management app with ServiceNow type design and layout.<br>
+Built using HTML / CSS / Vanilla Javascript.
+
+### Features
 
 - View to-do details, edit, delete and check off list items.
 - Utilize local storage to store data.
