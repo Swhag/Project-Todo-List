@@ -1,6 +1,9 @@
 # Simple To-do List (Small Project)
 
-Keep track of tasks with custom project folders
+## Project Overview
+
+Task management app with ServiceNow type design and layout.
+Keeps track of tasks with custom project folders. 
 
 - View to-do details, edit, delete and check off list items.
 - Utilize local storage to store data.
