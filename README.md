@@ -4,8 +4,9 @@
 
 ### Description
 
-Task management app with ServiceNow type design and layout.<br>
-Built using HTML / CSS / Vanilla Javascript.
+Task management app with ServiceNow type design and layout. Built<br>
+using HTML/CSS/Javascript. Utilized DOM manipulation and LocalStorage<br>
+to store data.
 
 ### Features
 
