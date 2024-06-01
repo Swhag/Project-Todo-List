@@ -1,7 +1,5 @@
 # Simple To-do List (Small Project)
 
-Click Here: [Live App](https://swhag.github.io/Todo-List-App/) :point_left:
-
 ## Project Overview
 
 ### Description
